@@ -16,7 +16,7 @@ while running:
     try:
         # Pyydetään käyttäjää arvaamaan luku
         number = int(input("Anna luku:\n"))
-        # Laskuria kasvatetaan yhdellä
+        # Kasvatetaan laskuria yhdellä
         counter += 1
         # Jos luku ei ole 1-100 välillä, ilmoitetaan käyttäjälle, että hänen arvaamansa luku ei ole 1-100 välillä
         if number < 1 or number > 100:
